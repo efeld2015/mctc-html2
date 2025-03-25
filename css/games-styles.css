@@ -6,21 +6,57 @@
 /* FONTS */
 /* Raleway */
 
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
 body {
-    background-color:#5E366A ;
+  background-color: #5e366a;
+
+}
+
+#game,
+#stats,
+#controls,
+#monsterStats {
+    border-radius: 15px;
+  background-color: silver;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 5px;
+  width: 500px;
+}
+
+.stat {
     font-family: 'Eagle Lake';
+    margin: 20px;
+    
 }
 
-#stats, #controls, #monsterStats {
-    background-color: silver;
-    font-family: 'Optima';
+#xpText, #healthText, #goldText, #monsterName, #monsterHealth {
+    font-family: Impact;
+    margin: 15px;
 }
 
- #text {
+#button1,
+#button2,
+#button3 {
+  background-color: yellowgreen;
+  padding: 10px 12px 10px 12px;
+  border-radius: 15px;
+  font-family: "Impact";
+  font-size: 20px;
+  letter-spacing: 2px;;
+}
+
+#text {
+    font-size: 20px;
+    font-family: "Eagle Lake";
     background-color: black;
-    color: silver;
+    color:  silver;
 }
 
-#button1, #button2, #button3 {
-background-color: #0CCA98;
+img {
+    border-radius: 15px;
 }
