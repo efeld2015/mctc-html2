@@ -4,13 +4,16 @@
 /* #0CCA98 ---  Carribbean green */
 
 /* FONTS */
+/* Raleway */
 
 body {
     background-color:#5E366A ;
+    font-family: 'Eagle Lake';
 }
 
 #stats, #controls, #monsterStats {
     background-color: silver;
+    font-family: 'Optima';
 }
 
  #text {
