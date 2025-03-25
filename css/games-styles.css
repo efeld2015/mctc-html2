@@ -65,15 +65,17 @@ body {
 }
 
 #monsterStats {
-  background: #dcd0ff;
   border-radius: 0px;
   color: black;
 }
-.stats-text-bg {
+
+.text-bg {
+    
   background-color: black;
   color: silver;
 }
 img {
   border-radius: 15px;
+  padding-top: 10px;
   display: flex;
 }
