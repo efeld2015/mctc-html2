@@ -60,10 +60,31 @@
         color: #FEDB7C;
         height: 200px;
       }
+
+      .some-page-wrapper {
+        
+        background-color: #392D8B;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+      }
 </style>
 </head>
 
   <body>
+
+  
     <main class="yellow-bg">
       <header class="yellow-bg">
       <h1>HTML and CSS Authoring 2</h1> 
@@ -73,19 +94,40 @@
         <span>|||</span>
     Spring Semester 2025</h2></section>
       </header>
-      <section class="purple-bg">
+<div class="some-page-wrapper">
+      
+  <div class="row">
+
+      <div class="column">
+
+        <div class="blue-column">
+      <!-- Some text in Column One --> 
+       <section class="purple-bg">
       <ul>
         <li class="item-1"><a href="games.html">Link to RPG html file</a></li>
         <li class="item-2"><a href="technical.html">Link to Technical Documentation page</a></li>
         <li class="item-2"><a href="calorie-counter/cal.html">Calorie Counter</a></li>
-        <li class="item-2"><a href="rock-paper-scissors/rock.html">Rock-Paper-Scissors Game</a></li>
-        <li class="item-2"><a href="city-skyline/city.html">City Skyline - CSS Art</a></li>
       </ul>
-      </section>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="green-column">
+            <!--Some Text in Column Two -->
+            <ul>
+              <li class="item-2"><a href="rock-paper-scissors/rock.html">Rock-Paper-Scissors Game</a></li>
+              <li class="item-2"><a href="city-skyline/city.html">City Skyline - CSS Art</a></li>
+                </ul>  
+    </section>
+
     </main> 
     <footer>
       Emily Feld, Web Developer
     </footer>
   </body>
+      </div>
+    </div>
+  </div>
+</div>
 
 </html>
