@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="prod-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <!-- HEADER + NAVBAR -->
+        <header id="header">
+  
+          <img id="header-img" src="https://www.shutterstock.com/image-vector/ball-yarn-isolated-on-white-600nw-2243078687.jpg" alt="drawing of a ball of yarn with one loose strand on a white background">
+          
+          <nav id="nav-bar">
+            <ul id="list">
+              <li><a href="#about" class="nav-link">About</a></li>
+  
+              <li><a href="#shop" class="nav-link">Shop</a></li>
+  
+  <li><a href="#classes" class="nav-link">Classes</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+              </ul>
+              </nav>
+              </header>
+
+              <h1 class="business-name">Groveland Yarn Shop</h1>
+
+<br>
+<br>
+<img src="https://thumbs.dreamstime.com/b/shelf-brightly-colored-yarns-displayed-cozy-knitting-shop-picture-355619965.jpg" height="400" width="800" alt="brightly colored yarns displayed in a cozy knitting shop">
+<br>
+<h2 id="about">ABOUT</h2>
+<br>
+
+<p>We are a yarn shop located in St. Paul, Minnesota. We sell everything you need for your next yarn-related project. We also offer classes for knitters and crocheters of all skill-levels.</p>
+
+<br>
+<br>
+
+<h2 id="shop">Shop</h2>
+
+<br> 
+<p>Lorem ipsum</p>
+
+<!-- PRODUCTS -->
+<br>
+<section class="wool_yarn" id="product1">
+<a href="purlsoho.com"><img src="https://www.purlsoho.com/media/catalog/product/b/a/barndoor-purlsoho-goodwool-m-.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=712&width=544" alt="wool img" height="205" width="205"></a>
+  </section>
+  <a href="purlsoho.com"><p id="blurb1">WOOL</p></a>
+<br>
+
+<section class="cotton_yarn" id="product2">
+    <a href="purlsoho.com"><img src="https://www.purlsoho.com/media/catalog/product/p/u/purlsoho_picniccotton_pinkpeppermint_m_1_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=&width=" alt="cotton img" height="205" width="205"></a>
+    </section>
+    <a href="purlsoho.com" id="blurb2">COTTON</p></a>
+
+<br>
+
+    <section class="knitting_needles" id="product3">
+     <a href="purlsoho.com"><img src="https://www.purlsoho.com/media/catalog/product/c/r/crystalpalace_straightbambooknittingneedles_m213330_2_32.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=712&width=544" alt="knitting needles img" height="205" width="205"></a>
+      </section>
+      <a href="purlsoho.com"><p id="blurb3">KNITTING NEEDLES</p></a>
+
+<br>
+
+<section class="crochet_hooks" id="product4">
+    <a href="purlsoho.com"><img src="https://www.langandtagwoodwork.com/cdn/shop/products/il_fullxfull.1465576742_9iz9.jpg?v=1571717887" alt="crochet hooks img" height="205" width="205"></a>
+   </section>
+   <a href="purlsoho.com"><p id="blurb4">CROCHET HOOKS.</p></a>
+
+<br>
+
+<!-- CLASSES -->
+<h2 id="blurb5">CLASSES</h2>
+<section class="classes" id="product4">
+         <img src="https://assets.bigcartel.com/product_images/393460068/iStock-1357647077-modified-f74c9b81-3e7f-4827-bd5f-e414ec749cf2.jpg?auto=format&fit=max&a..." alt="#" height="505" width="605">
+        </section>
+
+          <ul class="class-title">
+            <li class="class1">Knitting 101 -- $75</li>
+
+            <li class="class2">Knitting 102 -- $75</li>
+
+            <li class="class3">How to Knit an Ugly Sweater -- $120</li>
+            
+            <li class="class4">Amigurumi Animals -- $65</li>
+          </ul>
+
+<!-- REGISTRATION FORM -->
+<h2 id="sub-order">Class Registration Form</h2>
+
+<br>
+
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+
+<div class="form-group">
+
+  <label id="name-label" for="name">Name</label>
+
+  <input type="text" id="name" class="form-control" placeholder="First and last name" required>
+  
+  </div>
+  <br>
+  <div class="form-group">
+
+    <label id="address-label" for="address">Mailing address</label>
+
+    <input type="text" id="address" class="form-control" placeholder="House #, street, town, state, zip">
+    
+    </div>
+    <br>
+
+    <div class="form-group">
+
+      <label id="phone-label" for="phone">Phone number</label>
+
+      <input type="text" id="phone" class="form-control" placeholder="Phone number">
+      
+      </div>
+      <br>
+
+    <div class="form-group">
+
+      <label id="email-label" for="email">Email</label>
+
+      <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+    
+      </div>
+      <br>
+
+      <label id="select" for="select">Choose a subscription level</label>
+
+      <select id="dropdown">
+        <option>Knitting 101
+        <option>Knitting 102
+        <option>How to Knit an Ugly Sweater
+        <option>Amigurumi Animals
+      </select>
+      <br>
+      <br>
+<input type="submit" id="submit">
+</form>
+<br>
+<h2 id="contact">Contact</h2>
+<p>info@grovelandyarn.com
+  <br>
+2424 Alcott Road, Castle Rock, Maine, 04401
+</p>
+<br>
+<hr>
+<em>
+Website designed by Emily Feld, 2025.</em>
+
+</body>
+    </html>
+
