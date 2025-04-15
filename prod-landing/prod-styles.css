@@ -139,9 +139,22 @@
       color: #3A3A3A;
     }
   
-    @media (max-height: 350px) {
-  font-size: 16px;
-    }
-  
+    @media (max-width: 600px) {
+        *{ 
+            margin: auto;
+        };
+        body img {
+            height: 80px;
+            width: 105px;
+        };
+        body p {
+    font-size: 20px;
+      };
+      }
     
+    
+      /*.classes {
+         height: 305px;
+         width: 405px;
+        };*/
     
