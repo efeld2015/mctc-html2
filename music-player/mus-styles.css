@@ -1,18 +1,18 @@
 :root {
     /* colors */
-    --primary-color: #dfdfe2;
-    --secondary-color: #ffffff;
-    --app-background-color: #4d4d62;
-    --background-color: #1b1b32;
-    --foreground-color: #3b3b4f;
-    --highlight-color: #f1be32;
+    --primary-color: #37373d;
+    --secondary-color: white;
+    --app-background-color: cyan;
+    --background-color: white;
+    --foreground-color: crimson;
+    --highlight-color: goldenrod;
   
     /* font sizes */
     --root-font-size: 16px;
     font-size: var(--root-font-size);
   
     /* font-families */
-    --font-headline: "Roboto Mono", monospace;
+    --font-headline: "Andalé Mono", monospace;
     --font-family: "Lato", sans-serif;
   }
   
