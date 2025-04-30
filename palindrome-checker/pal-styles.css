@@ -17,18 +17,21 @@
 }
 
 .child {
-    outline: dashed 3px yellow;
+    outline: dashed 3px;
   }
 
 #check-btn {
     background-color: #09BC8A;
     margin: 10px;
+    border-radius: 10px;
+    font-family: Tahoma;
 }
 
 #text-input {
     background-color: white;
     height: 45px;
     margin-top: 45px;
+    font-family: Tahoma;
 }
 
 #result {
@@ -36,4 +39,7 @@
     height: 75px;
     margin-top: 15px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
 }
