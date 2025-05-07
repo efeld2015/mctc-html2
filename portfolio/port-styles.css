@@ -94,16 +94,20 @@
  /*Projects section*/
  
  .projects-container {
-    /* change color */
-    background: beige;
+  
+    
  }
  
  .projects-section {
-     background: beige;
     text-align: center;
     padding: 15px;
+    background: beige;
  }
  
+ .projects-section h2 {
+    font-size: 50px;
+    color:  #f45D01;
+ }
  .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -124,7 +128,7 @@
     } 
  }
  .project {
-    background: #474647;
+    background: #2d7dd2;
     /*box-shadow: 1px 1px 2px black;*/
     border-radius: 2px;
     color: beige;
