@@ -14,9 +14,6 @@
  height: 6em;
  background-color:#97CC04;;
  position: fixed;
- 
- 
- 
  }
  
  header img {
@@ -38,7 +35,6 @@
     justify-content: right;
  }
  
- /* is it DRY? */
  ul.nav-list li {
     list-style-type: none;
     padding: 20px;
@@ -90,17 +86,17 @@
     justify-content: center;
     padding: 15px;
  }
+
+ .about-container h2 {
+   font-size: 50px;
+ }
  
  /*Projects section*/
- 
- .projects-container {
-  
-    
- }
+
  
  .projects-section {
     text-align: center;
-    padding: 15px;
+    padding: 45px;
     background: beige;
  }
  
@@ -150,21 +146,7 @@
     padding: 1rem 0.5rem;
  }
  
- .btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: 2px;
- }
- 
- .btn-show-all {
- font-size: 2rem;
- background: beige;
- transition: background 0.3s ease-out;
- }
- 
- .btn-show-all:hover {
-    background: #ECB410;
- }
+
  
  h2 {
     display: flex;
@@ -179,15 +161,19 @@
  
  footer h2 {
     font-size: 25px;
+    
  }
  footer a {
     text-decoration: none;
     font-size: 35px;
     color: beige;
-    background: #f45D01;
+    background:#2d7dd2; 
     padding: 12px;
  }
  
+ footer a:hover {
+   background: #f45D01;
+ }
  /* parent container */
  .col-container {
     display: grid;
