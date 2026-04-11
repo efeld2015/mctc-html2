@@ -36,7 +36,7 @@
         <header>History</header>
         <br />
 
-        <!-- LIGHTBOX -->
+        <!-- LIGHTBOX 1-->
         <!-- Images used to open the lightbox -->
         <div class="row">
           <div class="column">
@@ -82,7 +82,6 @@
                 alt="Chapel"
               />
             </div>
-
           </div>
         </div>
 
@@ -109,12 +108,60 @@
           Camino Ingles (named as such because it was traditionally the
           preferred route for English and Irish pilgrims)
         </li>
-        <img
-          src="https://anthikes.com/wp-content/uploads/camino-map-spain-portugal-1.jpg"
-          height="400"
-          width="500"
-          alt="a map showing the various routes that start in Spain, Portugal, Italy, and France"
-        />
+
+        <!-- LIGHTBOX 2 -->
+        <!-- Images used to open the lightbox -->
+        <div class="row">
+          <div class="column">
+            <img
+              src="https://anthikes.com/wp-content/uploads/camino-map-spain-portugal-1.jpg"
+              height="300"
+              width="600"
+              alt="the Santiago de Campostela cathedral with a blue sky and white clouds"
+              onclick="openModal();currentSlide(1)"
+              class="hover-shadow"
+            />
+          </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <div class="numbertext">2 / 2</div>
+              <img
+                src="https://anthikes.com/wp-content/uploads/camino-map-spain-portugal-1.jpg"
+                alt="a map showing the various routes that start in Spain, Portugal, Italy, and France"
+                style="width: 100%"
+              />
+            </div>
+
+            <!-- Next/previous controls -->
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+
+            <!-- Caption text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column">
+              <img
+                class="demo"
+                src="https://anthikes.com/wp-content/uploads/camino-map-spain-portugal-1.jpg"
+                height="400"
+                width="500"
+                alt="a map showing the various routes that start in Spain, Portugal, Italy, and France"
+                onclick="currentSlide(1)"
+                alt="a map showing the various routes that start in Spain, Portugal, Italy, and France"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- LIGHTBOX 2 END-->
+
         <p>Other routes start as far away as Italy and France.</p>
         <code></code>
       </section>
@@ -141,13 +188,59 @@
           de Santiago.
         </li>
 
-        <img
-          src="https://www.walkingnorthspain.com/images/en/galeria/viajes-autoguiados/camino-santiago-coastal-route/selfguided-camino-norte-route.jpg?v=2"
-          height="300"
-          width="600"
-          alt="hikers walking a trail by the ocean"
-        />
-        <code></code>
+        <!-- LIGHTBOX 3 -->
+        <!-- Images used to open the lightbox -->
+        <div class="row">
+          <div class="column">
+            <img
+              src="https://www.walkingnorthspain.com/images/en/galeria/viajes-autoguiados/camino-santiago-coastal-route/selfguided-camino-norte-route.jpg?v=2"
+              height="300"
+              width="600"
+              alt="hikers walking a trail by the ocean"
+              onclick="openModal();currentSlide(3)"
+              class="hover-shadow"
+            />
+          </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <div class="numbertext">3 / 3</div>
+              <img
+                src="https://www.walkingnorthspain.com/images/en/galeria/viajes-autoguiados/camino-santiago-coastal-route/selfguided-camino-norte-route.jpg?v=2"
+                height="300"
+                width="600"
+                alt="hikers walking a trail by the ocean"
+                style="width: 100%"
+              />
+            </div>
+
+            <!-- Next/previous controls -->
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+
+            <!-- Caption text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            -<div class="column">
+              <img
+                src="https://www.walkingnorthspain.com/images/en/galeria/viajes-autoguiados/camino-santiago-coastal-route/selfguided-camino-norte-route.jpg?v=2"
+                height="300"
+                width="600"
+                alt="hikers walking a trail by the ocean"
+                onclick="currentSlide(3)"
+                alt="a map showing the various routes that start in Spain, Portugal, Italy, and France"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- LIGHTBOX 3 END -->
       </section>
 
       <section class="main-section" id="distance">
@@ -169,7 +262,6 @@
 
         <p></p>
 
-        <code></code>
       </section>
 
       <section class="main-section" id="navigating_the_camino">
@@ -182,14 +274,60 @@
           to Santiago de Compostela!
         </p>
 
-        <img
+         <!-- LIGHTBOX 4 -->
+        <!-- Images used to open the lightbox -->
+        <div class="row">
+          <div class="column">
+            <img
           src="https://lp-cms-production.imgix.net/2024-02/shutterstock2377138335-16.9.jpg?auto=format&q=72&w=1440&h=810&fit=crop"
           height="300"
           width="500"
           alt="trail markers"
-        />
-        <code></code>
-        <code></code>
+              onclick="openModal();currentSlide(4)"
+              class="hover-shadow"
+            />
+          </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <div class="numbertext">4 / 4</div>
+              <img
+          src="https://lp-cms-production.imgix.net/2024-02/shutterstock2377138335-16.9.jpg?auto=format&q=72&w=1440&h=810&fit=crop"
+          height="300"
+          width="500"
+          alt="trail markers"
+                style="width: 100%"
+              />
+            </div>
+
+            <!-- Next/previous controls -->
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+
+            <!-- Caption text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            -<div class="column">
+              <img
+          src="https://lp-cms-production.imgix.net/2024-02/shutterstock2377138335-16.9.jpg?auto=format&q=72&w=1440&h=810&fit=crop"
+          height="300"
+          width="500"
+          alt="trail markers"
+                onclick="currentSlide(4)"
+                alt="a map showing the various routes that start in Spain, Portugal, Italy, and France"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- LIGHTBOX 4 END -->
+        
       </section>
     </main>
     <script src="tech-script.js"></script>
