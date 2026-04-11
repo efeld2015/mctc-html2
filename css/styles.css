@@ -5,7 +5,7 @@ html {
 body {
   background: linear-gradient(#FB8B24, #89ccdd );
       font-weight: bold;
-      margin: 60px;
+      margin: 0
     }
     
     p, li {
@@ -74,10 +74,18 @@ body {
       padding:18px 0px 0px 18px;
     }
     
-    img {
+    .main-section img {
       border: 6px #0F4C5C double;
       margin-top: 25px;
       margin-left: 175px;
+    }
+
+    #lighboxImage {
+      margin: 0;
+      border: none;
+      display: block;
+      max-width: 100%;
+      height: auto;
     }
  
     /* LIGHTBOX STYLES */
@@ -113,12 +121,15 @@ body {
     
     /* Modal Content */
     .modal-content {
-      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     /* position: relative;
       background-color: #fefefe;
       margin: auto;
       padding: 0;
       width: 90%;
-      max-width: 1200px;
+      max-width: 1200px;*/
     }
     
     /* The Close Button */
