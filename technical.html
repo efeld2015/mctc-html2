@@ -52,30 +52,39 @@
         </div>
 
         <!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <div class="numbertext">1 / 1</div>
+              <img
+                src="https://th-thumbnailer.cdn-si-edu.com/YlQYYI7UQNSxFv0K0nONsrMl9Wo=/960x439/filters:focal(2284x1142:2285x1143)/https://tf-cmsv2-journeys-media.s3.amazonaws.com/filer_public/4b/c2/4bc2830e-e620-48ac-b147-36b1335ff0ef/spa_santiagodecompostela_panorama_ist_1192278941.jpg"
+                alt="Chapel"
+                style="width: 100%"
+              />
+            </div>
 
-    <div class="mySlides">
-      <div class="numbertext">1 / 1</div>
-      <img src="https://th-thumbnailer.cdn-si-edu.com/YlQYYI7UQNSxFv0K0nONsrMl9Wo=/960x439/filters:focal(2284x1142:2285x1143)/https://tf-cmsv2-journeys-media.s3.amazonaws.com/filer_public/4b/c2/4bc2830e-e620-48ac-b147-36b1335ff0ef/spa_santiagodecompostela_panorama_ist_1192278941.jpg" alt="Chapel" style="width:100%">
-    </div>
+            <!-- Next/previous controls -->
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
 
-    <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- Caption text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
 
-    <!-- Caption text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
+            <!-- Thumbnail image controls -->
+            <div class="column">
+              <img
+                class="demo"
+                src="https://th-thumbnailer.cdn-si-edu.com/YlQYYI7UQNSxFv0K0nONsrMl9Wo=/960x439/filters:focal(2284x1142:2285x1143)/https://tf-cmsv2-journeys-media.s3.amazonaws.com/filer_public/4b/c2/4bc2830e-e620-48ac-b147-36b1335ff0ef/spa_santiagodecompostela_panorama_ist_1192278941.jpg"
+                onclick="currentSlide(1)"
+                alt="Chapel"
+              />
+            </div>
 
-    <!-- Thumbnail image controls -->
-    <div class="column">
-      <img class="demo" src="https://th-thumbnailer.cdn-si-edu.com/YlQYYI7UQNSxFv0K0nONsrMl9Wo=/960x439/filters:focal(2284x1142:2285x1143)/https://tf-cmsv2-journeys-media.s3.amazonaws.com/filer_public/4b/c2/4bc2830e-e620-48ac-b147-36b1335ff0ef/spa_santiagodecompostela_panorama_ist_1192278941.jpg" onclick="currentSlide(1)" alt="Chapel">
-    </div>
-  </div>
-
+          </div>
+        </div>
 
         <p>
           The Camino de Santiago, or the Way of St. James in English, is a
@@ -183,6 +192,6 @@
         <code></code>
       </section>
     </main>
-    <script src="index.js"></script>
+    <script src="tech-script.js"></script>
   </body>
 </html>
