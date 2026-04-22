@@ -75,8 +75,14 @@ body {
     }
     
     img {
-      height:450px;
-      width:750px;
+      max-width:900px;
+      height: auto;
+    }
+
+    .main-section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1rem;
     }
     .main-section img {
       border: 6px #0F4C5C double;
@@ -158,30 +164,6 @@ body {
       display: none;
     }
     
-    /* Next & previous buttons */
-    .prev,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -50px;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      -webkit-user-select: none;
-    }
-    
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover,
     .next:hover {
@@ -222,9 +204,38 @@ body {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
-    @media screen and (max-width: 350px) {
-     
-    }
+    @media screen and (max-width: 768px) {
+      body {
+        margin: 10px;
+      }
+
+      #navbar {
+        position: static;
+        width: 100%;
+        height: auto;
+        border-right: none;
+      }
+
+      #main-doc {
+        margin-left: 0;
+      }
+    
+      header {
+        font-size: 36px;
+      }
+    
+      .column {
+        width: 100%;
+      }
+    
+      .main-section img {
+        margin-left: 0;
+      }
+
+      img {
+        width: 500px;
+      }
+    };
     
     
     
