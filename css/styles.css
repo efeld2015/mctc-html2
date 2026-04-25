@@ -84,10 +84,11 @@ body {
       margin: 0 auto;
       padding: 0 1rem;
     }
+
+    /* replaced margin-left and margin-top and just used margin: 0 auto instead. Fixed it so that there is equal space on the left and right of each image! */
     .main-section img {
       border: 6px #0F4C5C double;
-      margin-top: 25px;
-      margin-left: 175px;
+      margin: 0 auto;
     }
 
     #lighboxImage {
@@ -233,7 +234,7 @@ body {
       }
 
       img {
-        width: 500px;
+        width: 100%;
       }
     };
     
